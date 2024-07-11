@@ -12,17 +12,17 @@ environment:
 
 dependencies:
   # hasura_connect: ^5.0.1
-  http: ^1.2.1
-  uuid: ^4.4.0
+  http: ^1.1.0
+  uuid: ^4.1.0
 
 dependency_overrides: 
   hasura_connect: 
     path: ../hasura_connect
 
 dev_dependencies:
-  lint: ^2.3.0
-  mocktail: ^1.0.4
-  test: ^1.25.7
+  lint: ^1.0.0
+  mocktail: ^0.3.0 
+  test: ^1.20.1
   
   flutterando_analysis: 
     git: https://github.com/Flutterando/flutterando_analysis.git
